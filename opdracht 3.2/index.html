@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <h1>TUI</h1>
+    <br>
+    <h2>Boekingsformulier</h2>
+    <form action="">
+    <div>
+      <div>
+        <label for="fname">Voornaam</label><br>
+        <input type="text" id="fname" name="fname" minlength="2" pattern="[A-Z a-z]+" required>
+        </div>
+        <label for="lname">Achternaam</label><br>
+        <input type="text" id="lname" name="lname" minlength="2" pattern="[A-Z a-z]+" required>
+    </div>
+      
+      
+      <p>Geslacht</p>
+    <div>
+  <input type="radio" id="Man" name="Geslacht" value="Man" checked="checked">
+  <label for="Man">Man</label><br>
+  <input type="radio" id="Vrouw" name="Geslacht" value="Vrouw">
+  <label for="Vrouw">Vrouw</label><br>
+  <input type="radio" id="Anders" name="Geslacht" value="Anders">
+  <label for="Anders">Anders</label>
+</div>
+
+
+<p>Straat en huisnummer.</p>
+<div>
+    <input type="text" minlength="2" required>
+  </div>
+
+
+<p>Postcode</p>
+<div>
+    <input type="text" minlength="6" maxlength="6" required>
+  </div>
+
+
+<p>Stad</p>
+<div>
+    <input type="text" minlength="2" pattern="[A-Z a-z]+" required>
+  </div>
+
+<p>Land</p>
+<div>
+    <input type="text" minlength="2" pattern="[A-Z a-z]+">
+  </div>
+
+
+<p>BSN Nummer</p>
+<div>
+    <input type="text" minlength="9" maxlength="9" required>
+  </div>
+
+
+<p>Vakantieland</p>
+    <div>
+    <input type="radio" id="Nederland" name="Vakantieland" value="Nederland" checked="checked">
+    <Label for="Nederland">Nederland</Label><br>
+    </div>
+    <div>
+    <input type="radio" id="Duitsland" name="Vakantieland" value="Duitsland">
+    <Label for="Duitsland">Duitsland</Label><br>
+  </div>
+  <div>
+    <input type="radio" id="Turkije" name="Vakantieland" value="Turkije">
+    <Label for="Turkije">Turkije</Label><br>
+  </div>
+  <div>
+    <input type="radio" id="Hawaii" name="Vakantieland" value="Hawaii">
+    <Label for="Hawaii">Hawaii</Label><br>
+  </div>
+  <div>
+    <input type="radio" id="Egypte" name="Vakantieland" value="Egypte">
+    <Label for="Egypte">Egypte</Label><br>
+  </div>
+  <div>
+    <input type="radio" id="Verenigde Staten" name="Vakantieland" value="Verenigde Staten">
+    <Label for="Verenigde Staten">Verenigde Staten</Label>
+  </div>
+    <br>
+    <br>
+      <div>
+        <label for="datemax">Datum van vertrek</label>
+        <input type="date" id="datemax" name="datemax" min="2022-09-15" required>
+      </div>
+      <div>
+        <label for="datemin">Datum van terugkomst</label>
+        <input type="date" id="datemin" name="datemin" min="2022-09-16" required>
+      </div>
+      <br>
+      <div>
+        <label for="RGNTEN">Aantal Reisgenoten</label>
+        <input type="number" id="RGNTEN" name="RGNTEN" min="0" max="4" required>
+      </div>
+    <br>
+      <div>
+        <label for="email">Email</label>
+      <input type="email" id="email" name="email">
+      </div>
+      <div>
+        <label for="Wachtwoord">Wachtwoord</label>
+        <input type="password" id="Wachtwoord" name="Wachtwoord" minlength="4" required>
+    </div>
+    <br>
+    <button type="submit">Boek nu</button>
+</form>
+
+</html>

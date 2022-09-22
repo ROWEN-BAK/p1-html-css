@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Goldman", sans-serif;
+  background-color: black;
+  background-image: url(./img/hacker1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+p {
+  color: white;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #00a8c7;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+nav li {
+  font-size: 2.5rem;
+  padding: 0 4rem 0 4rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav img {
+  width: 5vw;
+}
+
+footer {
+  background-color: #00a8c7;
+  height: 6rem;
+}
+
+.a {
+  text-align: center;
+  font-size: small;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+}
+
+h2 {
+  color: white;
+  font-weight: bold;
+}
+
+section {
+  height: 33vh;
+  width: 33vw;
+}

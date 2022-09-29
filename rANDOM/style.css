@@ -1,0 +1,13 @@
+#header{
+    height:30px
+  }
+  #main{
+    min-height:calc(100vh);
+  }
+  #footer{
+    position: absolute;
+    height: 3rem;
+    width: 100%;
+    background-color: blue;
+    margin-right:80%;
+  }

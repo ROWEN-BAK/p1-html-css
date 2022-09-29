@@ -8,22 +8,36 @@ html {
 }
 body {
   font-family: "Goldman", sans-serif;
-  background-color: black;
-  background-image: url(./img/hacker1.png);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-size: cover;
+  position: relative;
+  background-color: black;
+  overflow-x: hidden;
 }
+
+.image1 {
+  background-color: black;
+  width: 100vw;
+  height: 40vw;
+}
+
 
 p {
   color: white;
+  position: relative;
 }
 
+
 nav {
+  z-index: 1;
   display: flex;
+  overflow: hidden;
+  top: 0;
   width: 100%;
   padding: 2rem;
   min-height: 10vh;
+  position: fixed;
   align-items: center;
   flex-wrap: wrap;
   margin: auto;
@@ -50,24 +64,69 @@ nav img {
 footer {
   background-color: #00a8c7;
   height: 6rem;
+  margin-top: 20rem;
+  width: 100vw
 }
 
 .a {
   text-align: center;
   font-size: small;
+  padding-top: 2rem;
+  margin-bottom: 10rem;
 }
 
 h1 {
   color: white;
   font-weight: bold;
+  left: 40rem;
+  position: relative;
+  bottom: 35rem;
+  font-size: 700%;
+  width: 80%;
 }
 
 h2 {
   color: white;
   font-weight: bold;
+  left: 60rem;
+  position: relative;
+  font-size: 500%;
+  top: 15rem;
 }
 
-section {
-  height: 33vh;
-  width: 33vw;
+
+.main {
+  margin-top: 15rem;
+}
+
+.imgright {
+  position: relative;
+  left: 10vw;
+  top: 30rem;
+  width: 30vw;
+  height: 50vh;
+}
+
+.imgleft {
+  position: relative;
+  left: 60vw;
+  top: 30rem;
+  width: 30vw;
+  height: 50vh;
+}
+
+.paragraphright {
+  position: relative;
+  left: 20vw;
+  width: 20vw;
+  bottom: 10vh;
+  font-size: medium;
+}
+
+.paragraphleft {
+  position: relative;
+  left: 50vw;
+  width: 20vw;
+  bottom: 10vh;
+  font-size: medium;
 }

@@ -50,6 +50,8 @@ nav ul {
   list-style-type: none;
 }
 nav li {
+  display: flex;
+  align-items: center;
   font-size: 2.5rem;
   padding: 0 4rem 0 4rem;
 }
@@ -158,22 +160,23 @@ h2 {
 }
 
 .dropdown-content a {
-  float: none;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
   color: #00a8c7;
   padding: 12px 16px;
   text-decoration: none;
-  display: block;
-  text-align: left;
 }
 
 .dropdown:hover .dropdown-content {
-  
-  display: block;
+  display: flex;
+  flex-direction: column;
   color: #00a8c7;
 }
 
 .dropdown:hover .dropbtn {
+  display: flex;
+  flex-direction: column;
   background-color: #ffffff;
   color: #00a8c7;
-
 }

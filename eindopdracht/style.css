@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  nav {
+    overflow: hidden;
+  }
+
+  nav ul {
+    display: flex;
+  align-items: center;
+  list-style-type: none;
+  }
+
+  nav li {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: white;
+  font-size: large;
+  }
+
+  .Travellylogo {
+    font-family: "Pattaya" , sans-serif;
+    color: white;
+  }
+
+  body {
+    font-family: "Poppins" , sans-serif;
+  }
+
+  .navbar {
+    background-color: #131c27;
+    height: 10vh;
+  }
